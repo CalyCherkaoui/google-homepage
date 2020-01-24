@@ -1,0 +1,18 @@
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 10px; /* in the original version the body marging is 0px */
+    overflow: scroll;
+}
+
+.connexBotton {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
