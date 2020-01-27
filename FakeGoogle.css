@@ -1,10 +1,52 @@
 body {
-    background-color: #fff;
-    color: #222;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    margin: 10px; /* in the original version the body marging is 0px */
-    overflow: scroll;
+  background-color: #fff;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 10px; /* in the original version the body marging is 0px */
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+#topNav {
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: stretch;
+  align-self: flex-end;
+}
+
+.mailImg {
+  padding: 10px;
+}
+
+.connexBotton {
+  padding: 10px;
+}
+
+#ImgGoogle {
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 15%;
+}
+
+#ResearchBar {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+#SearchBottons {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
 }
 
 .connexBotton {
@@ -15,4 +57,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+a {
+  margin: 5px;
+}
+
