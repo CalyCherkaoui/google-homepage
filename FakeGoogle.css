@@ -1,3 +1,6 @@
+/* styling the main body generel elements and the skeleton class whitch supports
+the structure of the page */
+
 body {
   background-color: #fff;
   color: #222;
@@ -16,6 +19,12 @@ body {
 
 }
 
+a {
+  margin: 5px;
+}
+
+/* Styling of the top bar elements - a navigation bar */
+
 #topNav {
   justify-content: flex-end;
   align-items: flex-start;
@@ -31,11 +40,30 @@ body {
   padding: 10px;
 }
 
+#connexionBotton{
+  background-color: rgb(56, 180, 230);
+  border-color: blue;
+  border-style: dashed;
+  border-width: 2px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.icones {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Styling the Google logo div */
+
 #ImgGoogle {
   justify-content: center;
   align-items: flex-end;
   padding-top: 15%;
 }
+
+/* Styling the research section */
 
 #ResearchBar {
   justify-content: center;
@@ -62,7 +90,5 @@ ul {
   flex-wrap: wrap;
 }
 
-a {
-  margin: 5px;
-}
+
 
