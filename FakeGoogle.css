@@ -19,10 +19,6 @@ body {
 
 }
 
-a {
-  margin: 5px;
-}
-
 /* Styling of the top bar elements - a navigation bar */
 
 #topNav {
@@ -41,13 +37,11 @@ a {
 }
 
 #connexionBotton{
-  background-color: rgb(56, 180, 230);
-  border-color: blue;
-  border-style: dashed;
-  border-width: 2px;
-  font-style: normal;
+  border: 1px solid  #4285f4;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  background-color: #4683ea;
 }
 
 .icones {
